@@ -70,7 +70,7 @@ public class TodoApp extends App {
     }
 
     public void join() {
-
+        accountService.join();
     }
 
     public void login() {
