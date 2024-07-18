@@ -17,10 +17,14 @@ public class TodoApp extends App {
     Menu userMenu; // 로그인한 상태의 메뉴
     Menu anonymousMenu; // 로그아웃한 상태의 메뉴
 
-    LoginService loginService = new LoginService();
-    AccountService accountService = new AccountService();
+//    LoginService loginService = new LoginService();
+//    AccountService accountService = new AccountService();
+//    TodoService todoService = new TodoService();
 
-    TodoService todoService = new TodoService();
+    LoginService loginService = Context.getBean(LoginService.class);
+    AccountService accountService = Context.getBean(AccountService.class);
+    TodoService todoService = Context.getBean(TodoService.class);
+
 
 //    TodoService service = new TodoService();
 
@@ -52,7 +56,6 @@ public class TodoApp extends App {
         userMenu = new Menu();
 //        userMenu.add(new MenuItem("목록", todoService::print));
         userMenu.add(new MenuItem("목록", todoService::printPage));
-
         userMenu.add(new MenuItem("검색", todoService::search));
         userMenu.add(new MenuItem("상세", todoService::detail));
         userMenu.add(new MenuItem("추가", todoService::create));

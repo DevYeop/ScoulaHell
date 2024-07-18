@@ -1,8 +1,8 @@
 package org.scoula.todo.service;
 
 import org.scoula.lib.cli.ui.Input;
+import org.scoula.todo.context.Context;
 import org.scoula.todo.dao.UserDao;
-import org.scoula.todo.dao.UserDaoImpl;
 import org.scoula.todo.domain.UserVO;
 import org.scoula.todo.exception.PasswordMissmatchException;
 import org.scoula.todo.exception.UsernameDuplicateException;
@@ -11,7 +11,8 @@ import java.sql.SQLException;
 import java.util.Optional;
 
 public class AccountService {
-    UserDao dao = new UserDaoImpl();
+    //    UserDao dao = new UserDaoImpl();
+    UserDao dao = Context.getBean(UserDao.class);
 
     public void join() {
         try {
