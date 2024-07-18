@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sv8.ScoulaCli:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sv8_ScoulaCli_jar</output-path>
+    <root id="archive" name="sv8.ScoulaCli.jar" />
+  </artifact>
+</component>

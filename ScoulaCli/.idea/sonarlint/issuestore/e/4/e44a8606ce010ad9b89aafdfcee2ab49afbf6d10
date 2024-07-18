@@ -1,0 +1,18 @@
+
+‚
+java:S1854":Remove this useless assignment to local variable "square".(¨çÈ½ûÿÿÿÿ8â„ˆº‡2J$7367ce05-65da-4464-a0e1-bac1a98ec893
+r
+java:S1197
+"*Move the array designators [] to the type.(º ìıÿÿÿÿ8ã„ˆº‡2J$931be03f-cdc9-4f5c-a1bf-82bb9c76fc64
+½
+java:S6204"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8å„ˆº‡2J$c4df7952-a16c-4a35-8d7c-2815d27bfd4a
+n
+java:S1481"+Remove this unused "square" local variable.(ÿÖö8å„ˆº‡2J$b86da103-4f1e-4abd-8a3b-1ec8cfcb3f74
+½
+java:S6204"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8ç„ˆº‡2J$d5a7b339-07a2-4f50-a2d8-b2217c758e5d
+½
+java:S6204'"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8‰’º‡2J$d2ef6183-d070-4abe-b842-67a499f07d0f
+ˆ
+java:S1612:"@Replace this lambda with method reference 'System.out::println'.(½Ëõ÷øÿÿÿÿ8ê„ˆº‡2J$f5e6a3c5-0820-43e0-9b9a-aa6a196b6e39
+z
+java:S1128"7Remove this unused import 'org.scoula.lib.cli.ui.Menu'.(òÚÁ¯8Œ’º‡2J$d8e73b70-2d41-46d8-a141-6eb1f7812620

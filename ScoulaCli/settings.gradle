@@ -1,0 +1,3 @@
+rootProject.name = 'sv8'
+include ':ScoulaCli'
+project(':ScoulaCli').projectDir=new File('C:\\todo\\sv8\\scoulacli')
