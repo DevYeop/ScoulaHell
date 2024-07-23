@@ -9,12 +9,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class TodoVO {
-    private Long id;
-    private String title;
-    private String description;
-    private Boolean done;
-    private String userId;
+public class TodoVOTest {
+
+    int number;
+    String column1;
+    String column2;
+    String column3;
+    int column4;
 
 
 }

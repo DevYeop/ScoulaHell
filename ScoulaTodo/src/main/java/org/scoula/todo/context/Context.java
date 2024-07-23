@@ -21,14 +21,22 @@ public class Context {
 
     private Context() {
         map = new HashMap<>();
+//        map.put(UserDao.class, new UserDaoImpl());
+//        map.put(TodoDao.class, new UserDaoImpl());
+//        map.put(AccountService.class, new AccountService());
+//        map.put(LoginService.class, new LoginService());
+//        map.put(TodoService.class, new TodoService());
+    }
+
+    private static Context context = new Context();
+
+    static {
         map.put(UserDao.class, new UserDaoImpl());
         map.put(TodoDao.class, new UserDaoImpl());
         map.put(AccountService.class, new AccountService());
         map.put(LoginService.class, new LoginService());
         map.put(TodoService.class, new TodoService());
     }
-
-    private static Context context = new Context();
 
     public static Context getContext() {
         return context;
@@ -38,5 +46,4 @@ public class Context {
         return (T) context.map.get(clazz);
     }
 
-    
 }
